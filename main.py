@@ -3,7 +3,7 @@ from openai import OpenAI
 import os
 
 client = OpenAI(
-    api_key="***",
+    api_key="***",   #hidden for security
 )
 
 def extract_text_from_pdf(pdf_path):
@@ -50,8 +50,8 @@ def check_company_eligibility(placement_data, resume_text):
     return final_response
 
 def main():
-    placement_data_path = "pastcriteria.pdf"
-    resume_path = "Resume.pdf"
+    placement_data_path = "pastcriteria.pdf"  #add paths to pdf. in this case my pdf was in same directory
+    resume_path = "Resume.pdf"      #add paths to pdf. in this case my pdf was in same directory
 
     print("Extracting placement data...")
     placement_data = extract_text_from_pdf(placement_data_path)
