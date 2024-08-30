@@ -1,0 +1,575 @@
+{
+    "companies": [
+      {
+        "name": "AFFINSYS AI PRIVATE LIMITED",
+        "role": "Software Engineer (Backend Developer)",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021 - 2022",
+          "major": "C.S.E",
+          "skills": [
+            "Python",
+            "Django",
+            "React"
+          ],
+          "projects": "Experience in Python/Django/React application development"
+        }
+      },
+      {
+        "name": "AKAMAI TECHNOLOGIES",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 8.0,
+          "year_of_study": "2021 - 2022",
+          "major": "B.Tech - CSE",
+          "skills": [
+            "Data Structures",
+            "Algorithms",
+            "Core Subjects"
+          ],
+          "projects": "Experience with DSA and core projects"
+        }
+      },
+      {
+        "name": "ALLSTATE SOLUTION PRIVATE LIMITED",
+        "role": "Associate Consultant",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021 - 2022",
+          "major": "B.Tech - CSE",
+          "skills": [
+            "Core Java",
+            "Analytical Ability",
+            "Verbal Ability"
+          ],
+          "projects": "Worked on various projects and presentations"
+        }
+      },
+      {
+        "name": "ANSYS SOFTWARE Pvt. Ltd",
+        "role": "Application Engineer (Semiconductor Business Unit)",
+        "criteria": {
+          "minimum_gpa": 8.5,
+          "year_of_study": "2021 - 2022",
+          "major": "E.C.E",
+          "skills": [
+            "Circuit Analysis",
+            "VLSI",
+            "Static Timing Analysis"
+          ],
+          "projects": "VLSI/circuit design projects"
+        }
+      },
+      {
+        "name": "ANZ",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021 - 2022",
+          "major": "B Tech - CSE",
+          "skills": [
+            "OOPS",
+            "DSA",
+            "Behavioral Skills"
+          ],
+          "projects": "Experience in coding, analytics, and internships"
+        }
+      },
+      {
+        "name": "BAIN CAPABILITY NETWORK",
+        "role": "Analyst",
+        "criteria": {
+          "minimum_gpa": null,
+          "year_of_study": "2021 - 2022",
+          "major": "Mechanical Engineering",
+          "skills": [
+            "Data Interpretation",
+            "Logical Reasoning"
+          ],
+          "projects": "Estimate total market requirements and benchmarks"
+        }
+      },
+      {
+        "name": "BRITISH TELECOM",
+        "role": "Engineering Intern",
+        "criteria": {
+          "minimum_gpa": null,
+          "year_of_study": "2021 - 2022",
+          "major": "B.Tech - ECE",
+          "skills": [
+            "Programming",
+            "Technical Questions"
+          ],
+          "projects": "Capstone and mini projects"
+        }
+      },
+      {
+        "name": "COGNIZANT",
+        "role": "Programmer Analyst Trainee Technical",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021 - 2022",
+          "major": "B.Tech CSE",
+          "skills": [
+            "DBMS",
+            "OOP Concepts",
+            "Data Structures"
+          ],
+          "projects": "Projects and internships related to programming languages"
+        }
+      },
+      {
+        "name": "CAPGEMINI",
+        "role": "Senior Analyst",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021 - 2022",
+          "major": "CSE & ECE",
+          "skills": [
+            "Python",
+            "Java",
+            "C",
+            "Database Management"
+          ],
+          "projects": "Various internships and core projects"
+        }
+      },
+      {
+        "name": "CASHFREE PAYMENTS",
+        "role": "Software Developer Engineer in Test",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021 - 2022",
+          "major": "CSE",
+          "skills": [
+            "SQL",
+            "Python",
+            "OOP Concepts"
+          ],
+          "projects": "Experience in testing and software development"
+        }
+      },
+      {
+        "name": "CISCO",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021 - 2022",
+          "major": "CSE",
+          "skills": [
+            "Networking",
+            "DBMS",
+            "Operating Systems"
+          ],
+          "projects": "Capstone project and other related programming assignments"
+        }
+      },
+      {
+        "name": "DIGICERT INC.",
+        "role": "Intern / Associate Business Intelligence Analyst",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021 - 2022",
+          "major": "CSE",
+          "skills": [
+            "Data Structures",
+            "Cloud Concepts"
+          ],
+          "projects": "Various data handling and evaluation projects"
+        }
+      },
+      {
+        "name": "SCHNEIDER ELECTRIC",
+        "role": "Analyst",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021 - 2022",
+          "major": "Electronics and Communication",
+          "skills": [
+            "Battery Technology",
+            "Material Science"
+          ],
+          "projects": "Worked on various projects related to electronics"
+        }
+      },
+      {
+        "name": "VMWARE",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 0.0,
+          "year_of_study": "2021 - 2022",
+          "major": "CSE",
+          "skills": [
+            "Virtualization",
+            "Cloud Technologies"
+          ],
+          "projects": "Developed various applications related to software virtualization"
+        }
+      },
+      {
+        "name": "TARGET",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021 - 2022",
+          "major": "CSE",
+          "skills": [
+            "Retail Technology",
+            "Data Analysis"
+          ],
+          "projects": "Worked on retail system optimizations and data analysis"
+        }
+      },
+      {
+        "name": "CRED",
+        "role": "Backend Developer",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": ["Python", "SQL", "DBMS"],
+          "projects": "Project on Managing Logistics of Vaccines."
+        }
+      },
+      {
+        "name": "Cognizant",
+        "role": "Programmer Analyst Trainee Basic",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "Mechanical Engineering, Minor in CSE",
+          "skills": ["Basic CSE Knowledge", "Analytical Skills"],
+          "projects": "Various academic projects."
+        }
+      },
+      {
+        "name": "DELL",
+        "role": "Software Engineer 1",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": ["Software Development", "Problem Solving"],
+          "projects": "Projects related to high performance computing."
+        }
+      },
+      {
+        "name": "Deloitte",
+        "role": "Analyst",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "CSE/IT/All Circuit Branches",
+          "skills": ["Analytical Skills", "Problem Solving"],
+          "projects": "Participated in collaborative projects."
+        }
+      },
+      {
+        "name": "Genpact",
+        "role": "Developer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": ["Java", "SQL", "Data Structures"],
+          "projects": "Involved in data analytics projects."
+        }
+      },
+      {
+        "name": "JP Morgan",
+        "role": "Full Stack Developer",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021-2022",
+          "major": "Computer Science",
+          "skills": ["JavaScript", "React", "Node.js"],
+          "projects": "Worked on real-time collaborative applications."
+        }
+      },
+      {
+        "name": "IBM",
+        "role": "Software Development Engineer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": ["Cloud Computing", "Python"],
+          "projects": "Projects relevant to cloud solutions."
+        }
+      },
+      {
+        "name": "KPMG",
+        "role": "Digital Strategy Trainee",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE/ECE",
+          "skills": ["Analytical Thinking", "Communication Skills"],
+          "projects": "Worked on digital strategy formulations."
+        }
+      },
+      {
+        "name": "Lam Research",
+        "role": "Software Engineer 1",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "CSE/ECE",
+          "skills": ["C/C++", "Analytical Skills"],
+          "projects": "Project on software development for semiconductor manufacturing."
+        }
+      },
+      {
+        "name": "MakeMyTrip",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE/ECE",
+          "skills": ["Full Stack Development", "Database Management"],
+          "projects": "Developed web applications for travel management."
+        }
+      },
+      {
+        "name": "Mercedes Benz Research and Development India",
+        "role": "Graduate Engineer Trainee (GET)",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": [
+            "Python",
+            "SQL",
+            "AI/ML"
+          ],
+          "projects": "Capstone Project Overview"
+        }
+      },
+      {
+        "name": "Microchip Technology",
+        "role": "Software Quality Assurance",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": [
+            "Python",
+            "Computer Networks",
+            "Operating Systems"
+          ],
+          "projects": "Capstone Project and Previous Internship Projects"
+        }
+      },
+      {
+        "name": "Oracle",
+        "role": "Associate Consultant",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE, ECE, EEE",
+          "skills": [
+            "Python",
+            "SQL",
+            "Data Structures",
+            "Algorithms"
+          ],
+          "projects": "Relevant Academic and Minor Projects"
+        }
+      },
+      {
+        "name": "NVIDIA",
+        "role": "Hardware Intern",
+        "criteria": {
+          "minimum_gpa": 8.0,
+          "year_of_study": "2021-2022",
+          "major": "ECE",
+          "skills": [
+            "VLSI",
+            "Digital Design"
+          ],
+          "projects": "Circuit Design Projects"
+        }
+      },
+      {
+        "name": "PwC India",
+        "role": "Risk Consultant - Cybersecurity",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE, ECE",
+          "skills": [
+            "Cybersecurity",
+            "Data Analysis"
+          ],
+          "projects": "Data Analytics Project, Cybersecurity Research"
+        }
+      },
+      {
+        "name": "Samsung R&D Institute India",
+        "role": "Developer Intern",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": [
+            "OOP",
+            "Data Structures",
+            "Algorithms"
+          ],
+          "projects": "Capstone Project and Additional Personal Projects"
+        }
+      },
+      {
+        "name": "Rakuten India",
+        "role": "Technical Intern",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "CSE, ECE, EE, ME",
+          "skills": [
+            "DSA",
+            "Coding",
+            "Pattern Matching"
+          ],
+          "projects": "Capstone and Self-initiated Projects"
+        }
+      },
+      {
+        "name": "Schneider Electric",
+        "role": "GET - Oracle Application Developer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE, ECE",
+          "skills": [
+            "SQL",
+            "Python",
+            "OOP"
+          ],
+          "projects": "Academic Projects and Capstone"
+        }
+      },
+      {
+        "name": "Shadowfax Technologies Pvt. Ltd.",
+        "role": "Backend Developer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "Computer Science and Engineering",
+          "skills": ["Backend Development", "Database Management", "Computer Networks"],
+          "projects": "Capstone project and various projects mentioned in the resume"
+        }
+      },
+      {
+        "name": "SIXT R&D",
+        "role": "Software Development Engineer 1",
+        "criteria": {
+          "minimum_gpa": 8.0,
+          "year_of_study": "2021-2022",
+          "major": "Computer Science Engineering",
+          "skills": ["Dynamic Programming", "Coding", "Technical Aptitude"],
+          "projects": "Relevant projects listed in resume"
+        }
+      },
+      {
+        "name": "Slice",
+        "role": "SDE - 1",
+        "criteria": {
+          "minimum_gpa": 7.5,
+          "year_of_study": "2021-2022",
+          "major": "Computer Science",
+          "skills": ["Coding", "Aptitude", "Technical Knowledge"],
+          "projects": "Relevant projects listed in resume"
+        }
+      },
+      {
+        "name": "Sixt R&D",
+        "role": "Software Engineer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "Computer Science and Engineering",
+          "skills": ["Coding", "SQL", "Software Development"],
+          "projects": "Any project related to software engineering"
+        }
+      },
+      {
+        "name": "TCS",
+        "role": "Assistant System Engineer - Trainee",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE & ECE",
+          "skills": ["OOP", "Data Structures", "Operating Systems"],
+          "projects": "Relevant academic and personal projects"
+        }
+      },
+      {
+        "name": "Zee",
+        "role": "SDE Intern",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE",
+          "skills": ["API functionalities", "NodeJS", "General programming"],
+          "projects": "Relevant projects from academic experience"
+        }
+      },
+      {
+        "name": "Visa Inc.",
+        "role": "New Grad - Software Engineer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE, ECE and EEE",
+          "skills": ["DBMS", "Big Data", "System Design"],
+          "projects": "Capstone and related projects in relevant domains"
+        }
+      },
+      {
+        "name": "Walmart Global Tech",
+        "role": "Software Development Engineer (SDE)",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE, ECE and EEE",
+          "skills": ["Hashmap", "Dynamic Programming", "DBMS"],
+          "projects": "Projects related to software development"
+        }
+      },
+      {
+        "name": "Zscaler",
+        "role": "DevOps",
+        "criteria": {
+          "minimum_gpa": 6.5,
+          "year_of_study": "2021-2022",
+          "major": "CSE/IT/ECE",
+          "skills": ["C Programming", "Networking", "Operating Systems"],
+          "projects": "Demos of relevant coding experience"
+        }
+      },
+      {
+        "name": "Zoom",
+        "role": "Service Engineer",
+        "criteria": {
+          "minimum_gpa": 7.0,
+          "year_of_study": "2021-2022",
+          "major": "CSE/ECE",
+          "skills": ["Computer Network Security", "Software Engineering"],
+          "projects": "Projects or practical experience in relevant areas"
+        }
+      },
+      {
+        "name": "Sonata Software",
+        "role": "Trainee Digital Technology Specialist",
+        "criteria": {
+          "minimum_gpa": 6.0,
+          "year_of_study": "2021-2022",
+          "major": "Mechanical Engineering",
+          "skills": ["Digital Technologies", "Software Development"],
+          "projects": "Capstone and other significant projects"
+        }
+      }
+    ]
+  }
+  
