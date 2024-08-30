@@ -16,7 +16,7 @@ def extract_text_from_pdf(pdf_path):
 
 def chat_gpt(messages):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=messages
     )
     return response.choices[0].message.content.strip()
