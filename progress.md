@@ -1,21 +1,13 @@
 #progress so far
 
-code so far has been implemented for back-end.
-only basic functionality of understanding pdf has been implemented.
+*****final updates as of this friday*****
 <br/>
-
-pdf_summary.py contains the basic feature to extract text data from resume and provide summary of it. using this as a template for any further pdf content extraction tasks.
+backend functionality of understanding resume implemented
 <br/>
-
-main.py is the current back-end i'm working on. trying to provide a fairly sized placement data file as chunks for the model to analyse before performing comparison with student resume
+placements data made into json and recognized by gpt in the back-end
 <br/>
-
-***updates***
+main.py is the main code that is the completed protoype backend
 <br/>
-resume_criteria_checker_text.py ---->  input text data working for placements data. It is able to compare placement data with input placement data given and check eligibility.
+placement_criteria.json is the json file containing the placement crierias for each company. This data was extracted from the 2 codes i have also provided....one converting the pdf data to text and the other converting the text data to json.
 <br/>
-
-api keys have been hidden since this is a public platform.
-also the "resume.pdf" path mentioned in the codes implies that the resume is in the same directory as the project. if your resume is in a different directory provide the path instead of the pdf name directly.
-<br/>
-update openai and all other libraries to latest version. the older versions had different functions to generate gpt responses than the ones i have used.
+gpt didn't allow the entire text data to be passed and converted to json so naturally i had to split the text file into several files and provide it one at a time. I then compiled all the fragmented json file data into the main json file uploaded in this repo.
