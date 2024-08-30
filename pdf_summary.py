@@ -16,7 +16,7 @@ def extract_text_from_pdf(pdf_path):
 
 def chat_gpt(prompt):
     response = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o-mini",
         messages=[{"role": "system", "content": "You are a helpful assistant."},
                   {"role": "user", "content": prompt}]
     )
