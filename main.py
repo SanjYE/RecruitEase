@@ -1,9 +1,9 @@
 import PyPDF2
 from openai import OpenAI
-import os
+import json
 
 client = OpenAI(
-    api_key="***",   #hidden for security
+    api_key="***",    #hidden for security
 )
 
 def extract_text_from_pdf(pdf_path):
@@ -16,53 +16,55 @@ def extract_text_from_pdf(pdf_path):
 
 def chat_gpt(messages):
     response = client.chat.completions.create(
-        model="gpt-4o-mini",
+        model="gpt-4o-mini",  
         messages=messages
     )
     return response.choices[0].message.content.strip()
 
-def check_company_eligibility(placement_data, resume_text):
+def load_criteria_from_json(json_path):
+    with open(json_path, 'r') as file:
+        return json.load(file)
 
-    chunk_size = 4000  
-    placement_chunks = [placement_data[i:i+chunk_size] for i in range(0, len(placement_data), chunk_size)]
-    
-    all_responses = []
-    
-    system_message = {
-        "role": "system", 
-        "content": "You are an AI assistant that analyzes placement data and resumes to determine company eligibility."
-    }
-    
-    for i, chunk in enumerate(placement_chunks):
-        messages = [
-            system_message,
-            {"role": "user", "content": f"Here's part {i+1} of the placement data:\n{chunk}\n\nAnalyze this data and keep it in memory."}
-        ]
-        chat_gpt(messages) 
-    
+def check_eligibility(criteria, resume_text):
+    companies_criteria = json.dumps(criteria['companies'], indent=2)
+    messages = [
+        {"role": "system", "content": "You are an AI assistant that evaluates resumes for job eligibility based on company criteria."},
+        {"role": "user", "content": f"""
+Here are the criteria for multiple companies:
+{companies_criteria}
 
-    final_message = [
-        system_message,
-        {"role": "user", "content": f"Based on the placement data I've provided, and the following resume, list the companies this candidate is eligible for. Provide a brief explanation for each company.\n\nResume:\n{resume_text[:4000]}"}
+Evaluate the following resume against each company's criteria. Determine if the candidate is eligible for each company's position. 
+Provide a list of companies the candidate is eligible for, along with brief explanations.
+If the candidate is not eligible for any company, explain why.
+
+Resume:
+{resume_text[:4000]}
+
+Your response should be in the following format:
+Eligible Companies:
+1. [Company Name] - [Brief explanation of eligibility]
+2. [Company Name] - [Brief explanation of eligibility]
+...
+
+If not eligible for any:
+Not eligible for any companies. Reasons:
+- [Reason 1]
+- [Reason 2]
+...
+        """}
     ]
-    
-    final_response = chat_gpt(final_message)
-    return final_response
+    return chat_gpt(messages)
 
 def main():
-    placement_data_path = "pastcriteria.pdf"  #add paths to pdf. in this case my pdf was in same directory
-    resume_path = "Resume.pdf"      #add paths to pdf. in this case my pdf was in same directory
-
-    print("Extracting placement data...")
-    placement_data = extract_text_from_pdf(placement_data_path)
-
-    print("Extracting resume data...")
-    resume_text = extract_text_from_pdf(resume_path)
-
-    print("Analyzing eligibility...")
-    eligibility_result = check_company_eligibility(placement_data, resume_text)
+    pdf_path = "Resume.pdf"
+    json_path = "placement_criteria.json"
     
-    print("\nEligibility Results:")
+    pdf_text = extract_text_from_pdf(pdf_path)
+    criteria = load_criteria_from_json(json_path)
+    
+    eligibility_result = check_eligibility(criteria, pdf_text)
+    
+    print("Eligibility Evaluation:")
     print(eligibility_result)
 
 if __name__ == "__main__":
